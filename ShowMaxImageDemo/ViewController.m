@@ -8,6 +8,9 @@
 
 #import "ViewController.h"
 
+//查看大图
+#import "ShowMaxImage.h"
+
 @interface ViewController ()
 
 @end
@@ -22,6 +25,14 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+#pragma mark - UIButton
+- (IBAction)Show:(id)sender {
+    
+    UIButton *button = sender;
+    
+    [[ShowMaxImage showMaxImage] showImage:button.imageView];
 }
 
 @end

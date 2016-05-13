@@ -13,6 +13,12 @@
 		4CCAAD1B1CE57F3700DDBA86 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CCAAD191CE57F3700DDBA86 /* Main.storyboard */; };
 		4CCAAD1D1CE57F3700DDBA86 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CCAAD1C1CE57F3700DDBA86 /* Assets.xcassets */; };
 		4CCAAD201CE57F3700DDBA86 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CCAAD1E1CE57F3700DDBA86 /* LaunchScreen.storyboard */; };
+		4CCAAD3D1CE5840A00DDBA86 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CCAAD351CE5840A00DDBA86 /* 1.png */; };
+		4CCAAD3E1CE5840A00DDBA86 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CCAAD361CE5840A00DDBA86 /* 2.png */; };
+		4CCAAD3F1CE5840A00DDBA86 /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4CCAAD371CE5840A00DDBA86 /* 3.jpg */; };
+		4CCAAD401CE5840A00DDBA86 /* 5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4CCAAD381CE5840A00DDBA86 /* 5.jpg */; };
+		4CCAAD411CE5840A00DDBA86 /* 7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4CCAAD391CE5840A00DDBA86 /* 7.jpg */; };
+		4CCAAD421CE5840A00DDBA86 /* ShowMaxImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CCAAD3C1CE5840A00DDBA86 /* ShowMaxImage.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +32,13 @@
 		4CCAAD1C1CE57F3700DDBA86 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4CCAAD1F1CE57F3700DDBA86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4CCAAD211CE57F3700DDBA86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CCAAD351CE5840A00DDBA86 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		4CCAAD361CE5840A00DDBA86 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		4CCAAD371CE5840A00DDBA86 /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
+		4CCAAD381CE5840A00DDBA86 /* 5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5.jpg; sourceTree = "<group>"; };
+		4CCAAD391CE5840A00DDBA86 /* 7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 7.jpg; sourceTree = "<group>"; };
+		4CCAAD3B1CE5840A00DDBA86 /* ShowMaxImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowMaxImage.h; sourceTree = "<group>"; };
+		4CCAAD3C1CE5840A00DDBA86 /* ShowMaxImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowMaxImage.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +71,12 @@
 		4CCAAD0F1CE57F3700DDBA86 /* ShowMaxImageDemo */ = {
 			isa = PBXGroup;
 			children = (
+				4CCAAD3A1CE5840A00DDBA86 /* ShowMaxImage */,
+				4CCAAD351CE5840A00DDBA86 /* 1.png */,
+				4CCAAD361CE5840A00DDBA86 /* 2.png */,
+				4CCAAD371CE5840A00DDBA86 /* 3.jpg */,
+				4CCAAD381CE5840A00DDBA86 /* 5.jpg */,
+				4CCAAD391CE5840A00DDBA86 /* 7.jpg */,
 				4CCAAD131CE57F3700DDBA86 /* AppDelegate.h */,
 				4CCAAD141CE57F3700DDBA86 /* AppDelegate.m */,
 				4CCAAD161CE57F3700DDBA86 /* ViewController.h */,
@@ -77,6 +96,15 @@
 				4CCAAD111CE57F3700DDBA86 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4CCAAD3A1CE5840A00DDBA86 /* ShowMaxImage */ = {
+			isa = PBXGroup;
+			children = (
+				4CCAAD3B1CE5840A00DDBA86 /* ShowMaxImage.h */,
+				4CCAAD3C1CE5840A00DDBA86 /* ShowMaxImage.m */,
+			);
+			path = ShowMaxImage;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +165,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				4CCAAD201CE57F3700DDBA86 /* LaunchScreen.storyboard in Resources */,
+				4CCAAD3D1CE5840A00DDBA86 /* 1.png in Resources */,
+				4CCAAD3E1CE5840A00DDBA86 /* 2.png in Resources */,
+				4CCAAD411CE5840A00DDBA86 /* 7.jpg in Resources */,
+				4CCAAD3F1CE5840A00DDBA86 /* 3.jpg in Resources */,
+				4CCAAD401CE5840A00DDBA86 /* 5.jpg in Resources */,
 				4CCAAD1D1CE57F3700DDBA86 /* Assets.xcassets in Resources */,
 				4CCAAD1B1CE57F3700DDBA86 /* Main.storyboard in Resources */,
 			);
@@ -152,6 +185,7 @@
 				4CCAAD181CE57F3700DDBA86 /* ViewController.m in Sources */,
 				4CCAAD151CE57F3700DDBA86 /* AppDelegate.m in Sources */,
 				4CCAAD121CE57F3700DDBA86 /* main.m in Sources */,
+				4CCAAD421CE5840A00DDBA86 /* ShowMaxImage.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,6 +332,7 @@
 				4CCAAD261CE57F3700DDBA86 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
